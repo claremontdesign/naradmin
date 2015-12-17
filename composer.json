@@ -1,0 +1,31 @@
+{
+	"name": "claremontdesign/naradmin",
+	"description": "Claremontdesign NAR/NHR Admin",
+	"license": "ClaremontDesign NAR/NHR Propreitary",
+	"authors": [
+		{
+			"name": "Dennes B Abing",
+			"email": "dennes.b.abing@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Claremontdesign\\Naradmin\\": "src/"
+		},
+		"files": [
+			"src/Helpers/helpers.php"
+		]
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/TestCase.php"
+		]
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"illuminate/support": "~5",
+		"claremontdesign/cdbase": "dev-master",
+		"claremontdesign/cdbackend": "dev-master",
+		"claremontdesign/narbase": "dev-master"
+	}
+}
